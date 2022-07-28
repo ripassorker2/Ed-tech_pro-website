@@ -53,7 +53,7 @@
         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
             <div class="carousel-inner">
                 <div class="carousel-item active bg-dark">
-                    <img src="images/cover/cover-1.png" class="d-block opacity-25  w-100 img-fluid" alt="...">
+                    <img src="images/cover/cover-1.png" class="d-block opacity-25  h-75 img-fluid" alt="...">
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 ">
                         <h2 class="fw-bold fs-1">Get Started Gigital <br> Learning </h2>
                         <p class="text-white">It is a long established fact that a reader will be distracted by the
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="carousel-item bg-dark">
-                    <img src="images/cover/cover-3.jpg" class="d-block w-100 opacity-25 img-fluid" alt="...">
+                    <img src="images/cover/cover-3.jpg" class="d-block w-100 opacity-25 img-fluid h-75" alt="...">
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100  ">
                         <h2 class="fw-bold">Get Started Gigital <br> Learning </h2>
                         <p class="text-white">It is a long established fact that a reader will be distracted by the
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="carousel-item bg-dark">
-                    <img src="images/cover/cover-2.jpg" class="d-block w-100 opacity-25 img-fluid" alt="...">
+                    <img src="images/cover/cover-2.jpg" class="d-block w-100 opacity-25 img-fluid h-75 " alt="...">
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100  ">
                         <h2 class="fw-bold">Get Started Gigital <br> Learning </h2>
                         <p class="text-white">It is a long established fact that a reader will be distracted by the
@@ -230,16 +230,16 @@
                 <br>
                 <p>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
                     generators on the Internet tend to repeat predefine</p>
-                <div class="d-flex ">
-                    <div>
-                        <h2 class="fw-bold pe-4">3.2K+</h2>
+                <div class="d-flex row ">
+                    <div class="col-md-4 col-sm-6">
+                        <h2 class="fw-bold pe-md-4">3.2K+</h2>
                         <h6>Online class</h6>
                     </div>
-                    <div>
-                        <h2 class="fw-bold pe-4">600K+</h2>
+                    <div class="col-md-4 col-sm-6">
+                        <h2 class="fw-bold pe-md-4">600K+</h2>
                         <h6>Epert member</h6>
                     </div>
-                    <div>
+                    <div class="col-md-4">
                         <h2 class="fw-bold">1K+</h2>
                         <h6>Ratting and review</h6>
                     </div>
@@ -305,6 +305,76 @@
         </div>
 
     </div>
+    <!------------------ accrodian part ----------------- -->
+    <div class="container my-5">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What are the differnt in flexbox and grid ?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p> The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was
+                            designed for layout in one dimension - either a row or a column. Grid was designed for
+                            two-dimensional layout - rows, and columns at the same time.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What are the differnt in bootstrap and tailwind ?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit.
+                            Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have a default
+                            theme or built-in UI components. Instead, it comes with predesigned widgets you can use to
+                            build your site from scratch.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What is CSS box model ?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of:
+                            margins, borders, padding, and the actual content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        What is Simantig tag ?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>The HTML semantics refers to the tags that provide meaning to an HTML page rather than just
+                            presentation. It makes HTML more comprehensible by better defining the different sections
+                            and layout of web pages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!------------------ company secion --------------- -->
     <div class="container py-lg-5 d-none d-lg-block ">
         <div class="text-center">
